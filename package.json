@@ -6,7 +6,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "env-cmd -f.env.development gatsby develop",
+    "develop": "env-cmd -f.env gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -16,8 +16,10 @@
   "dependencies": {
     "@contentful/rich-text-html-renderer": "^14.1.1",
     "@contentful/rich-text-react-renderer": "^14.1.1",
+    "@contentful/rich-text-types": "^14.1.1",
     "gatsby": "^2.24.79",
     "gatsby-plugin-offline": "^3.2.34",
+    "gatsby-plugin-react-helmet": "^3.3.14",
     "gatsby-plugin-sass": "^2.3.17",
     "gatsby-plugin-sharp": "^2.6.42",
     "gatsby-remark-images": "^3.3.35",
@@ -28,7 +30,8 @@
     "node-sass": "^4.14.1",
     "node-worker-threads-pool": "^1.4.2",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "env-cmd": "^10.1.0",

@@ -1,9 +1,11 @@
 import React from 'react'
 import {graphql } from 'gatsby'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
+import{ BLOCKS } from '@contentful/rich-text-types'
 
 import Layout from '../components/layout'
-import { node } from 'webpack'
+import Head from '../components/head'
+
 
 
 export const query = graphql`
@@ -32,6 +34,7 @@ const Blog = (props) => {
 
   return (
     <Layout>
+      <Head title={props.data.contentfulBlogPost.title} />
       <h1>{props.data.contentfulBlogPost.title}</h1>
       <p>{props.data.contentfulBlogPost.publishedDate}</p>  
       {documentToReactComponents(props.data.contentfulBlogPost.body.json, options)} 
