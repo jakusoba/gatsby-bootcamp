@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import Head from '../components/head'
+//import Head from '../components/head'
 
 
 //const IndexPage = () => {
@@ -17,7 +17,7 @@ import Head from '../components/head'
     
 //}
 
-export default IndexPage
+//export default IndexPage
 
 /**Moved from line 14
 <p>Need a Developer? <Link to="/contact">Contact me.</Link></p>**/
