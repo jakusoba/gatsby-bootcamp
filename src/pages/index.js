@@ -11,10 +11,13 @@ const IndexPage = () => {
         <Head title="Home" />
         <h1>Hey there!</h1>
           <h2>I'm Jane, a Software Developer</h2>
-          <p>Need a Developer? <Link to="/contact">Contact me.</Link></p>
+        
       </Layout>
     )
     
 }
 
 export default IndexPage
+
+/**Moved from line 14
+<p>Need a Developer? <Link to="/contact">Contact me.</Link></p>**/

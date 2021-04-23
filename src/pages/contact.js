@@ -11,11 +11,15 @@ const ContactPage = () => {
             <Head title="Contact" />
             <h1>Contact</h1>
              <p>
-                The best way to reach me is via <a href="https://linkedin.com/in/jane-akusoba-74b5b8190" target="_blank">@JaneAkusoba</a> on Linkedin.
+                
             </p>
         </Layout>
     )
 
 }
 export default ContactPage
-        
+ 
+//Moved from line 13 - 15
+//<p>
+                //The best way to reach me is via <a href="https://linkedin.com/in/jane-akusoba-74b5b8190" target="_blank">@JaneAkusoba</a> on Linkedin.
+            //</p>
