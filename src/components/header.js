@@ -7,9 +7,7 @@ const Header = () => {
    const data = useStaticQuery(graphql`
      query {
        site {
-         siteMetadata {
-          title
-         }
+         
         }
       }
    
@@ -44,3 +42,12 @@ const Header = () => {
 }
 
 export default Header
+
+//This was copied from line 8
+//query {
+    //site {
+      //siteMetadata {
+       //title
+      //}
+     //}
+   //}
