@@ -5,17 +5,17 @@ import Layout from '../components/layout'
 import Head from '../components/head'
 
 
-const IndexPage = () => {
-    return (
-      <Layout>
-        <Head title="Home" />
-        <h1>Hey there!</h1>
-          <h2>I am a Software Developer</h2>
+//const IndexPage = () => {
+    //return (
+      //<Layout>
+        //<Head title="Home" />
+        //<h1>Hey there!</h1>
+          //<h2>I am a Software Developer</h2>
         
-      </Layout>
-    )
+      //</Layout>
+    ///)
     
-}
+//}
 
 export default IndexPage
 
